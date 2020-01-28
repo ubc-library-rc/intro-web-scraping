@@ -2,6 +2,6 @@
  layout: default
  title: Activities
  parent: Outline
- nav_order: 1
+ nav_order: 3
 ---
 # Activities
