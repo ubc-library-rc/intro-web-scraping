@@ -1,5 +1,5 @@
 ---
  layout: default
- title: Setup
+ title: Resources
  nav_order: 2
 ---

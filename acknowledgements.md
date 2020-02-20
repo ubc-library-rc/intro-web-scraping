@@ -1,5 +1,5 @@
 ---
  layout: default
- title: Setup
+ title: Acknowledgements
  nav_order: 3
 ---
