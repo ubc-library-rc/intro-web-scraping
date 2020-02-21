@@ -13,6 +13,10 @@
 ## Working with Dataminer
 * <a href="https://data-miner.io/user-manuals/public-recipes">Dataminer Documentation</a>.
 
+## XPath
+- [XPath tutorial from W3Schools](https://www.w3schools.com/xml/xpath_intro.asp)
+- [XPath syntax cheatsheet](https://devhints.io/xpath)
+
 ## Working with Python
 * <a href="https://docs.python-guide.org/">The Hitchhikers Guide to Python</a>
 * Documentation for Python libraries and frameworks:
