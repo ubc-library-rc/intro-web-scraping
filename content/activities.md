@@ -6,7 +6,7 @@
 ---
 # Activities
 
-## Data Miner Activities
+## Data Miner Activity
 
 If you haven't already, install <a href="https://chrome.google.com/webstore/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden">Data Miner plugin for Chrome</a>.
 
@@ -15,7 +15,7 @@ If you haven't already, install <a href="https://chrome.google.com/webstore/deta
 
 2. Build a new recipe to get names and emails from the UBC directory.
 
-## Python Activities
+## Python Activity
 
 For this activity we will be using UBC Syzygy and following the <a href="https://docs.python-guide.org/scenarios/scrape/">"Hitchhikers Guide to Python" html scraping tutorial</a>.
 
