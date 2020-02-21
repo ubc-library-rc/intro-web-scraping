@@ -6,21 +6,40 @@
 ---
 # Understanding a website
 
-Website content is represented using HTML, or Hypertext Markup Language. Web servers make this HTML content avaialble browsers using a communication method called HTTP (Hypertext Transfer Protocol).  A web browser works by using HTTP to access documents in HTML format, then rendering them in the the browser window.
+Website content is usually represented using HTML, or **H**yper**t**ext **M**arkup **L**anguage. Web servers make this HTML content available to browsers using a data transfer protocol called HTTP (**H**yper**t**ext **T**ransfer **P**rotocol). Two of the most common HTTP request methods are *get* (to request data from a server) and *post* (to send data to a server). Web access documents in HTML format and display them in the browser window.
 
-Web scraping tools use the HTML structure of a website to navigate the page and identify the content to scrape. Sites whose underlying structure is well organized and descriptive are usually easier to scrape. Effective use of web scraping tools requires at least a basic understanding of how web pages are structured and how their content is served.
+Web scraping tools use a website's HTML structure navigate the page and identify the content to scrape. Effective use of web scraping tools requires at least a basic understanding of how web pages are structured. Sites whose underlying structure is well organized and descriptive are usually easier to scrape.
 
 <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">Anatomy of an HTML element.</a>
 
+
 ## Using Browser "Inspect" tools
 
-Modern browsers have built-in "inspect" tools that reveal the underlying HTML structure of a web page. In Chrome and Firefox, right-clicking on part of the page and selecting *Inspect* (Chrome) or *Inspect element* (Firefox) will show where the selected element appears in the the page HTML.
+Modern browsers have built-in "inspect" tools that reveal the HTML structure of a web page. Right-click any part of a page and select *Inspect* or *Inspect element* to open a panel showing how the selected content is represented in the HTML.
 
-This screenshot shows the *Inspect* tool applied to a simple website accessed using Chrome: http://econpy.pythonanywhere.com/ex/001.html.  The website is a simple list of buyer names and item prices.
+In Safari and Microsoft Edge *inspect element* is not enabled by default. To enable: 
+- **Safari** - Go to Preferences -> Advanced and enable *Show Developer menu in menu bar*
+- **Microsoft Edge** - press F12
+{: .note}
+
+This screenshot shows the *Inspect* tool applied to a simple website accessed in Chrome: http://econpy.pythonanywhere.com/ex/001.html.  The website is a simple list of buyer names and item prices.
 
 ![Inspect tool example](media/inspect_tool.png)
 
-In a simple site it is easy to see the correlation between the content and the HTML elements. You can expand the HTML elements in the inspection window to reveal other content.
+In a simple site it is easy to see the correlation between displayed content and HTML elements. You can expand the HTML elements in the inspection window to reveal other content, or hover over elements to highlight the corresponding section in the content.
+
+Web scrapers navigate the HTML structure using *XPath*, a language that identifies and selects content on the web site (referred to as nodes). In the example above, all buyer names are contained in <div> elements like this
+
+```
+<div title="buyer-name">Carson Busses</div>
+```
+
+The XPath expression that identifies **all** "buyer-name" <div> elements on the page is
+
+```
+//div[@title="buyer-name"]
+```
+
 
 ## Scraping examples
 
