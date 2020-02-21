@@ -12,7 +12,7 @@
 
 ## Working with Python
 * <a href="https://docs.python-guide.org/">The Hitchhikers Guide to Python</a>
-* Documentation for libraries and frameworks
+* Documentation for Python libraries and frameworks:
   * <a href="https://requests.readthedocs.io/en/master/">requests</a>
   * <a href="https://docs.python.org/2/library/urllib.html">urllib</a>
   * <a href="https://lxml.de/">lxml<a/>
