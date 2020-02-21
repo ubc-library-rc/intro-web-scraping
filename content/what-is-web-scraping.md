@@ -43,7 +43,7 @@ Scraping can automate repetitive data retrieval tasks but depending on the site 
 Just because something is online does not mean it is free to scrape. Sites may wish to control how the information they provide is accessed and used. Intensive web scraping can also put high demands on the website's server. Some sites may expressly forbid web scraping in the terms of use or include a *robots.txt* file that specifies how crawlers and scrapers may access the site.  
 
 ![robots.txt comic](media/robotstxt.png)
-Source: http://locomostrip.com/comic/179/
+Source: [http://locomostrip.com/comic/179/]
 
 A few questions to consider when deciding whether web scraping is appropriate:
 

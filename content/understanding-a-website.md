@@ -18,7 +18,7 @@ Modern browsers have built-in "inspect" tools that reveal the underlying HTML st
 
 This screenshot shows the *Inspect* tool applied to a simple website accessed using Chrome: http://econpy.pythonanywhere.com/ex/001.html.  The website is a simple list of buyer names and item prices.
 
-![Inspect tool example](media/inspect_tool.jpg)
+![Inspect tool example](media/inspect_tool.png)
 
 In a simple site it is easy to see the correlation between the content and the HTML elements. You can expand the HTML elements in the inspection window to reveal other content.
 
