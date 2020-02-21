@@ -1,6 +1,6 @@
 ---
  layout: default
- title: Understanding a website
+ title: Understanding website structure
  parent: Outline
  nav_order: 2
 ---
