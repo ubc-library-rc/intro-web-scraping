@@ -16,4 +16,6 @@ HEAD - just get the head of a resource without the full content (great for figur
 
 HTML - hypertext markup language
 
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">Anatomy of an HTML element.</a>
+
 # Using Browser "Inspect" tools
