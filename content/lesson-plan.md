@@ -13,7 +13,7 @@ This workshop is intended to orient complete beginners to the fundamentals of we
 
 | 0:00 | Setup and orientation |
 | 0:10  | What is web scraping and when is it useful? |  
-| 0:15  | Web page structure |   
+| 0:15  | Understanding a website |   
 | 0:20  | Tools and approaches  |  
 | 0:40 | Activities |
 | 1:25 | Wrap-up |   
