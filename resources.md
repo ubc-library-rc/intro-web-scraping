@@ -7,8 +7,11 @@
 # Resources
 
 ## Understanding Websites
+* Mozilla developer network's <a href=<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">Getting started with the web"</a> which covers HTML basics.
+* For more in-depth information about web development take a look at <a href="https://internetingishard.com/">Internetting is hard (but doesn't have to be)</a>.
 
 ## Working with Dataminer
+* <a href="https://data-miner.io/user-manuals/public-recipes">Dataminer Documentation</a>.
 
 ## Working with Python
 * <a href="https://docs.python-guide.org/">The Hitchhikers Guide to Python</a>
