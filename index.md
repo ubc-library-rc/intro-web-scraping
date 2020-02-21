@@ -13,4 +13,4 @@ Dataminer does require you to create a free account with their service by loggin
 
 All data scraped through Dataminer is stored locally on your computer and never leaves your computer.
 
-<a href="https://data-miner.io/how-it-works>Read more about how Dataminer works</a>.
+<a href="https://data-miner.io/how-it-works">Read more about how Dataminer works</a>.
