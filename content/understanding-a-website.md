@@ -43,6 +43,8 @@ The XPath expression that identifies all "buyer-name" nodes on the page is
 
 To help illustrate how scrapers use HTML to identify content we will use the Data Miner extension for Chrome.
 
+The Data Miner extension is an accessible way to introduce web scraping concepts. More sophisticated scraping is usually accomplished with scripts (e.g. Python), especially in research were reproducibility is important.
+
 - Scraping example 1: search results from [Google Scholar](https://scholar.google.com)
 - Scraping example 2: Member of Parliament [addresses](https://www.ourcommons.ca/Members/en/search)
 
