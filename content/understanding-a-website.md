@@ -4,7 +4,7 @@
  parent: Outline
  nav_order: 2
 ---
-# Understanding a website
+# Understanding website structure
 
 Website content is usually represented using HTML, or **H**yper**t**ext **M**arkup **L**anguage. Web servers make this HTML content available to browsers using a data transfer protocol called HTTP (**H**yper**t**ext **T**ransfer **P**rotocol). Two of the most common HTTP request methods are *get* (to request data from a server) and *post* (to send data to a server). Web access documents in HTML format and display them in the browser window.
 
@@ -17,10 +17,10 @@ Web scraping tools use a website's HTML structure navigate the page and identify
 
 Modern browsers have built-in "inspect" tools that reveal the HTML structure of a web page. Right-click any part of a page and select *Inspect* or *Inspect element* to open a panel showing how the selected content is represented in the HTML.
 
-In Safari and Microsoft Edge *inspect element* is not enabled by default. To enable: 
-- **Safari** - Go to Preferences -> Advanced and enable *Show Developer menu in menu bar*
-- **Microsoft Edge** - press F12
-{: .note}
+  In Safari and Microsoft Edge *inspect element* is not enabled by default. To enable: 
+  - **Safari** - Go to Preferences -> Advanced and enable *Show Developer menu in menu bar*
+  - **Microsoft Edge** - press F12
+ {: .note}
 
 This screenshot shows the *Inspect* tool applied to a simple website accessed in Chrome: http://econpy.pythonanywhere.com/ex/001.html.  The website is a simple list of buyer names and item prices.
 
