@@ -19,7 +19,7 @@ Modern browsers have built-in "inspect" tools that reveal the HTML structure of 
 
 In Safari and Microsoft Edge *inspect element* is not enabled by default. To enable:
   **Safari** - Go to Preferences -> Advanced and enable *Show Developer menu in menu bar*
-  **Microsoft Edge** - press F12
+    **Microsoft Edge** - press F12
 {: .note}
 
 This screenshot shows the *Inspect* tool applied to a website accessed with Chrome: http://econpy.pythonanywhere.com/ex/001.html   The website is a list of buyer names and item prices.
