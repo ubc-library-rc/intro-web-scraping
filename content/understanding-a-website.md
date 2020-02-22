@@ -17,24 +17,24 @@ Web scraping tools use a website's HTML structure navigate the page and identify
 
 Modern browsers have built-in "inspect" tools that reveal the HTML structure of a web page. Right-click any part of a page and select *Inspect* or *Inspect element* to open a panel showing how the selected content is represented in the HTML.
 
-  In Safari and Microsoft Edge *inspect element* is not enabled by default. To enable: 
-  - **Safari** - Go to Preferences -> Advanced and enable *Show Developer menu in menu bar*
-  - **Microsoft Edge** - press F12
- {: .note}
+In Safari and Microsoft Edge *inspect element* is not enabled by default. To enable:
+**Safari** - Go to Preferences -> Advanced and enable *Show Developer menu in menu bar*
+**Microsoft Edge** - press F12
+{: .note}
 
-This screenshot shows the *Inspect* tool applied to a simple website accessed in Chrome: http://econpy.pythonanywhere.com/ex/001.html.  The website is a simple list of buyer names and item prices.
+This screenshot shows the *Inspect* tool applied to a website accessed with Chrome: http://econpy.pythonanywhere.com/ex/001.html   The website is a list of buyer names and item prices.
 
 ![Inspect tool example](media/inspect_tool.png)
 
-In a simple site it is easy to see the correlation between displayed content and HTML elements. You can expand the HTML elements in the inspection window to reveal other content, or hover over elements to highlight the corresponding section in the content.
+In a simple site it is easy to see the correlation between displayed content and HTML elements. You can expand the HTML elements in the inspection window to reveal other content, or hover over elements to highlight the corresponding section in the web page.
 
-Web scrapers navigate the HTML structure using *XPath*, a language that identifies and selects content on the web site (referred to as nodes). In the example above, all buyer names are contained in <div> elements like this
+Web scrapers navigate the HTML structure using *XPath*, a language that identifies and selects content on the web site (referred to as nodes). In the example above all buyer names are contained in <div> elements like this
 
 ```
-<div title="buyer-name">Carson Busses</div>
+<div title="buyer-name">Moe Dess</div>
 ```
 
-The XPath expression that identifies **all** "buyer-name" <div> elements on the page is
+The XPath expression that identifies all "buyer-name" <div> elements on the page is
 
 ```
 //div[@title="buyer-name"]
