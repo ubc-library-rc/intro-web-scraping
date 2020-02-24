@@ -17,6 +17,12 @@ If you haven't already, install <a href="https://chrome.google.com/webstore/deta
 
 ## Python Activity
 
-For this activity we will be using UBC Syzygy, an online computing environment available to the UBC community. UBC Syzygy uses Jupyter Notebooks as a base to make ready-to-use Python and R available for experimentation and exploration. Log in to <a href="https://ubc.syzygy.ca/">UBC Syzygy</a> using your CWL.
+For this activity we will be working in [UBC Syzygy](https://ubc.syzygy.ca/). Syzygy is a collection of research tools that are accessible through a web browser. One of these tools is "Jupyter" which is an electronic notebook that lets you run scripts in common programming languages and see the output immediately with no additional installation or setup required.
 
-We will also be following the <a href="https://docs.python-guide.org/scenarios/scrape/">"Hitchhikers Guide to Python" html scraping tutorial</a>.
+1. Please log in to [UBC Syzygy here](https://ubc.syzygy.ca/). Click on the red house and log in via UBC CWL.
+![Log in to Syzygy](media/syzygy-login.png)
+
+2. In the upper right hand side of the page select "New" and then "Python 3" from the dropdown.
+![Select Python 3 for new Jupyter notebook](media/jupyter-python3-select.png)
+
+3. From this point, we will be following the tutorial here: <a href="https://docs.python-guide.org/scenarios/scrape/">"Hitchhikers Guide to Python" html scraping</a>.
