@@ -23,6 +23,6 @@ For this activity we will be working in [UBC Syzygy](https://ubc.syzygy.ca/). Sy
 ![Log in to Syzygy](media/syzygy-login.png)
 
 2. In the upper right hand side of the page select "New" and then "Python 3" from the dropdown.
-![Select Python 3 for new Jupyter notebook](media/jupyter-python3-select.png =100x20)
+![Select Python 3 for new Jupyter notebook](media/jupyter-python3-select.png)
 
 3. From this point, we will be following the tutorial here: <a href="https://docs.python-guide.org/scenarios/scrape/">"Hitchhikers Guide to Python" html scraping</a>.
