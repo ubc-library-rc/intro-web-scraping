@@ -27,11 +27,11 @@ text mining projects, such as collections of journal articles or digitised texts
 
 
 ## Scraping vs crawling
-It is helpful to differentiate between *web scraping* and *web crawling*.  Crawling is what search engines like Google do when mass-analysing the web to build their indices. A *crawler* is a type of bot that accesses pages and follows any links they find, "crawling" through an entire website or group of sites. 
+It is helpful to differentiate between *web scraping* and *web crawling*.  Crawling is what search engines like Google do when mass-analysing the web to build their indices. A *crawler* is a type of bot that accesses pages and follows any links they find, "crawling" through an entire website or group of sites.
 
 *Web scraping* is more targeted than crawling. A scraper identifies and extracts specific content from the pages it accesses. In practice crawlers and scrapers are sometimes used together but the examples in this workshop do not include crawlers.
 
-Intensive scraping and crawling can put high demands on a website's server. Some sites disallow web scraping in their "terms of use" or specify how crawlers may access the site with a *robots.txt* file. 
+Intensive scraping and crawling can put high demands on a website's server. Some sites disallow web scraping in their "terms of use" or specify how crawlers may access the site with a *robots.txt* file.
 
 ![robots.txt comic](media/robotstxt.png)
 Source: [http://locomostrip.com/comic/179/]
@@ -52,6 +52,19 @@ Just because something is online does not mean it is free to scrape. Sites may w
 
 - *Am I allowed to take this data?* Check the website for *terms of use* that affect web scraping.
 - *Are there restrictions on what I can do with this data?* Making a local copy of publicly available data is usually OK, but there may be limits on use and redistribution of the content. Look for any *copyright* statements on the website.
-- *Am I overloading the website's servers?* Scraping practice should respect the website's access rules, often encoded in *robots.txt* files. 
+- *Am I overloading the website's servers?* Scraping practice should respect the website's access rules, often encoded in *robots.txt* files.
 
 There are grey areas as scraping involves interacting with a website in a way that the site owner might not have intended. When in doubt get in touch with a librarian or contact UBC's [Copyright Office](https://copyright.ubc.ca/support/contact-us/).
+
+```python
+from lxml import html
+import requests
+page = requests.get('http://econpy.pythonanywhere.com/ex/001.html')
+tree = html.fromstring(page.content)
+#This will create a list of buyers:
+buyers = tree.xpath('//div[@title="buyer-name"]/text()')
+#This will create a list of prices
+prices = tree.xpath('//span[@class="item-price"]/text()')
+print (buyers)
+print (prices)
+```
