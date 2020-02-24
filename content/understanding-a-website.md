@@ -17,7 +17,7 @@ Web scraping tools use a website's HTML structure to navigate the page and ident
 
 Most browsers have built-in "inspect" tools that allow you to explore the HTML structure of a web page. Right-click any part of a page and select *Inspect* or *Inspect element* to open a panel showing how the selected content is represented in the HTML.
 
-* In Safari and Microsoft Edge *inspect element* is not enabled by default. * To enable in **Safari** go to Preferences -> Advanced and enable *Show Developer menu in menu bar*.  * To enable in **Microsoft Edge** press F12
+* In Safari and Microsoft Edge *inspect element* is not enabled by default.<br>* To enable in **Safari** go to Preferences -> Advanced and enable *Show Developer menu in menu bar*. <br> * To enable in **Microsoft Edge** press F12
 {: .note}
 
 This screenshot below shows the *Inspect* tool applied to a website accessed with Chrome: [http://econpy.pythonanywhere.com/ex/001.html](http://econpy.pythonanywhere.com/ex/001.html). This site is a list of buyer names and item prices.
