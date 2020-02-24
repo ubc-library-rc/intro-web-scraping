@@ -39,6 +39,9 @@ The most common Python based tools for web scraping that you are likely to run i
   * a framework for web crawling and web scraping. For getting small and large amounts of data from the web and automating requests to happen repeatedly or over time.
   * A parser which processes html or xml by standardizing it. Beautiful soup can troubleshoot structural problems in the output of your scrape such missing or open html tags.
 
+
+Input
+{: .label .label-green }
 ~~~python
   from lxml import html
   import requests
@@ -51,3 +54,13 @@ The most common Python based tools for web scraping that you are likely to run i
   print (buyers)
   print (prices)
 ~~~
+
+Output
+{: .label .label-yellow }
+~~~python
+['Carson Busses', 'Earl E. Byrd', 'Patty Cakes', 'Derri Anne Connecticut', 'Moe Dess', 'Leda Doggslife', 'Dan Druff', 'Al Fresco', 'Ido Hoe', 'Howie Kisses', 'Len Lease', 'Phil Meup', 'Ira Pent', 'Ben D. Rules', 'Ave Sectomy', 'Gary Shattire', 'Bobbi Soks', 'Sheila Takya', 'Rose Tattoo', 'Moe Tell']
+
+['$29.95', '$8.37', '$15.26', '$19.25', '$19.25', '$13.99', '$31.57', '$8.49', '$14.47', '$15.86', '$11.11', '$15.98', '$16.27', '$7.50', '$50.85', '$14.26', '$5.68', '$15.00', '$114.07', '$10.09']
+~~~
+
+![Inspect element example for ](media/script-inspect-element-screenshot.png)
