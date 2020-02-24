@@ -38,3 +38,16 @@ The most common Python based tools for web scraping that you are likely to run i
 * <a href="https://scrapy.org/">Scrapy</a>
   * a framework for web crawling and web scraping. For getting small and large amounts of data from the web and automating requests to happen repeatedly or over time.
   * A parser which processes html or xml by standardizing it. Beautiful soup can troubleshoot structural problems in the output of your scrape such missing or open html tags.
+
+~~~python
+  from lxml import html
+  import requests
+  page = requests.get('http://econpy.pythonanywhere.com/ex/001.html')
+  tree = html.fromstring(page.content)
+  #This will create a list of buyers:
+  buyers = tree.xpath('//div[@title="buyer-name"]/text()')
+  #This will create a list of prices
+  prices = tree.xpath('//span[@class="item-price"]/text()')
+  print (buyers)
+  print (prices)
+~~~
