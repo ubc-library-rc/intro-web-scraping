@@ -55,16 +55,3 @@ Just because something is online does not mean it is free to scrape. Sites may w
 - *Am I overloading the website's servers?* Scraping practice should respect the website's access rules, often encoded in *robots.txt* files.
 
 There are grey areas as scraping involves interacting with a website in a way that the site owner might not have intended. When in doubt get in touch with a librarian or contact UBC's [Copyright Office](https://copyright.ubc.ca/support/contact-us/).
-
-```python
-from lxml import html
-import requests
-page = requests.get('http://econpy.pythonanywhere.com/ex/001.html')
-tree = html.fromstring(page.content)
-#This will create a list of buyers:
-buyers = tree.xpath('//div[@title="buyer-name"]/text()')
-#This will create a list of prices
-prices = tree.xpath('//span[@class="item-price"]/text()')
-print (buyers)
-print (prices)
-```
