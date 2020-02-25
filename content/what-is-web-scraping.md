@@ -35,7 +35,7 @@ Intensive scraping and crawling can put high demands on a website's server. Some
 
 ![robots.txt comic](media/robotstxt.png)<br/>
 
-Source: [http://locomostrip.com/comic/179/]
+Source: [http://locomostrip.com/comic/179/](http://locomostrip.com/comic/179/)
 
 
 ## Is scraping the best option?
