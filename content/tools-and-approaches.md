@@ -12,7 +12,7 @@ There are many reasons that you might want to skip the scripting process and wan
 
 For this workshop we will primarily be talking about one tool that represents a good example of a visual web scraper:
 
-<a href="https://data-miner.io/">Dataminer</a>(and other plugins)
+<a href="https://data-miner.io/">Dataminer</a> (and other plugins).
 
 ## Scripting
 
