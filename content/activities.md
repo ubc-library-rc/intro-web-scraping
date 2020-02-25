@@ -11,9 +11,12 @@
 If you haven't already, install <a href="https://chrome.google.com/webstore/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden">Data Miner plugin for Chrome</a>.
 
 1. Working from the "Recipes" tab, try the following:
-* Go to Google Scholar, do a search, and save the results of your search with the "Google Scholar" Recipe.
+- Go to Google Scholar, do a search, and save the results of your search with the "Google Scholar" Recipe.
 
-2. Build a new recipe to get names and emails from the UBC directory.
+2. Build a new recipe to scrape one of the following: 
+- names and email addresses from the [UBC directory](https://directory.ubc.ca/index.cfm)
+- search results from [UBC Library](https://library.ubc.ca)
+- *any other page you like!*
 
 ## Python Activity
 
