@@ -33,7 +33,7 @@ It is helpful to differentiate between *web scraping* and *web crawling*.  Crawl
 
 Intensive scraping and crawling can put high demands on a website's server. Some sites disallow web scraping in their "terms of use" or specify how crawlers may access the site with a *robots.txt* file.
 
-![robots.txt comic](media/robotstxt.png)
+![robots.txt comic](media/robotstxt.png)<br/>
 
 Source: [http://locomostrip.com/comic/179/]
 
