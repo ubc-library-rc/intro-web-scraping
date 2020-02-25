@@ -40,6 +40,7 @@ The most common Python based tools for web scraping that you are likely to run i
   * A parser which processes html or xml by standardizing it. Beautiful soup can troubleshoot structural problems in the output of your scrape such missing or open html tags.
 
 Below is an example of a simple Python script taken from the <a href="https://docs.python-guide.org/scenarios/scrape/">"Hitchhikers Guide to Python" html scraping tutorial</a>.
+
 Input
 {: .label .label-green }
 ~~~python
