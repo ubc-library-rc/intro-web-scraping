@@ -20,7 +20,7 @@ Most browsers have built-in "inspect" tools that allow you to explore the HTML s
 <p>In Safari and Microsoft Edge <strong>inspect element</strong> is not enabled by default.<br>* To enable in <strong>Safari</strong> go to Preferences -> Advanced and enable <i>Show Developer menu in menu bar</i>. <br> * To enable in <strong>Microsoft Edge</strong> press F12</p>
 {: .note}
 
-This screenshot below shows the *Inspect* tool applied to a website accessed with Chrome: [http://econpy.pythonanywhere.com/ex/001.html](http://econpy.pythonanywhere.com/ex/001.html). This site is a list of buyer names and item prices.
+This screenshot below shows the *Inspect* tool applied to a web page accessed with Chrome: [http://econpy.pythonanywhere.com/ex/001.html](http://econpy.pythonanywhere.com/ex/001.html). The page is a list of buyer names and item prices and is part of a [web scraping example](https://docs.python-guide.org/scenarios/scrape/) from The Hitchhiker's Guide to Python.
 
 ![Inspect tool example](media/inspect_tool.png)
 
@@ -46,4 +46,5 @@ To help illustrate how scrapers use HTML to identify content we will use the Dat
 The Data Miner extension is an accessible way to introduce web scraping concepts. More sophisticated scraping is usually accomplished with scripts (e.g. Python), especially in research were reproducibility is important.
 
 - Scraping example 1: search results from [Google Scholar](https://scholar.google.com)
-- Scraping example 2: Member of Parliament [addresses](https://www.ourcommons.ca/Members/en/search)
+- Scraping example 2: Member of Parliament [addresses](https://www.ourcommons.ca/members/en/addresses)
+
