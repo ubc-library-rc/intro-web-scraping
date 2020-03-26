@@ -70,3 +70,15 @@ We can see the structure of the script reflected when we use the inspect functio
 ### Why use a script?
 
 Tools such as Dataminer have the benefit of convenience and are certainly capable of answering challenging questions. However, in an academic context, it is important to have an understanding of exactly what is happening to produce a result. Moreover it is important to be able to communicate this to others and to share the entirety of your work with others down the line. As a proprietary tool, we don't really know how Dataminer is structured and aspects of it may change on us without warning. A colleage using a tool differently, in a different moment in time, or on a different system might also get a different output for reasons that are difficult to explain without understanding the nuances of how a tool works. Open source tools such as Python essentially "take out the middleman" and allow you to represent the reality of the steps you take to achieve a result and what variables are influencing it. It is also easier to share the entirety of your workflow as well as your output with others.
+
+## Python Activity
+
+For this activity we will be working in [UBC Syzygy](https://ubc.syzygy.ca/). Syzygy is a collection of research tools that are accessible through a web browser. One of these tools is "Jupyter" which is an electronic notebook that lets you run scripts in common programming languages and see the output immediately with no additional installation or setup required.
+
+1. Please log in to [UBC Syzygy here](https://ubc.syzygy.ca/). Click on the red house and log in via UBC CWL.
+![Log in to Syzygy](media/syzygy-login.png)
+
+2. In the upper right hand side of the page select "New" and then "Python 3" from the dropdown.
+![Select Python 3 for new Jupyter notebook](media/jupyter-python3-select.png)
+
+3. From this point, we will be following the tutorial here: <a href="https://docs.python-guide.org/scenarios/scrape/">"Hitchhikers Guide to Python" html scraping</a>.
