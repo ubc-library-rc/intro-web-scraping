@@ -13,7 +13,8 @@ Web scraping allows you to acquire non-tabular or poorly structured data from we
 into a usable structured format such as a .csv file or spreadsheet. In many cases scraping can save time by automating repetitive copy/paste retrieval processes.
 
 ![The promise of automation](media/the_general_problem.png)
-Source: [https://xkcd.com/974/]
+
+Source: [https://xkcd.com/974/](https://xkcd.com/974/)
 
 Specialized scraping tools can automate web data retrieval by defining what sites to visit, what information to look for, and whether data extraction should stop at the end of a page or continue to hyperlinked pages. Scraping processes can also be scheduled to run at regular intervals to capture changes in the data over time.
 
