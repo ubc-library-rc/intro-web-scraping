@@ -10,7 +10,7 @@ Website content is usually represented using HTML, or **H**yper**t**ext **M**ark
 
 Web scraping tools use a website's HTML structure to navigate the page and identify the content to scrape. Effective use of web scraping tools requires a basic understanding of how web pages are structured. Sites whose underlying structure is well organized and descriptive are usually easier to scrape.
 
-<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">Anatomy of an HTML element.</a>
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank">Anatomy of an HTML element.</a>
 
 
 ## Using Browser "Inspect" tools
@@ -20,7 +20,7 @@ Most browsers have built-in "inspect" tools that allow you to explore the HTML s
 <p>In Safari and Microsoft Edge <strong>inspect element</strong> is not enabled by default.<br>* To enable in <strong>Safari</strong> go to Preferences -> Advanced and enable <i>Show Developer menu in menu bar</i>. <br> * To enable in <strong>Microsoft Edge</strong> press F12</p>
 {: .note}
 
-This screenshot below shows the *Inspect* tool applied to a web page accessed with Chrome: [http://econpy.pythonanywhere.com/ex/001.html](http://econpy.pythonanywhere.com/ex/001.html). The page is a list of buyer names and item prices and is part of a [web scraping example](https://docs.python-guide.org/scenarios/scrape/) from The Hitchhiker's Guide to Python.
+This screenshot below shows the *Inspect* tool applied to a web page accessed with Chrome: <a href="http://econpy.pythonanywhere.com/ex/001.html" target="_blank">http://econpy.pythonanywhere.com/ex/001.html</a>. The page is a list of buyer names and item prices.
 
 ![Inspect tool example](media/inspect_tool.png)
 
@@ -43,10 +43,12 @@ The XPath expression that identifies all "buyer-name" nodes on the page is
 
 To help illustrate how scrapers use HTML to identify content we will use the Data Miner extension for Chrome.
 
-The Data Miner extension is an accessible way to introduce web scraping concepts. More sophisticated scraping is usually accomplished with scripts (e.g. Python), especially in research were reproducibility is important.
+The Data Miner extension is an accessible way to introduce web scraping concepts. It's a helpful learning tool but more sophisticated scraping is usually accomplished with scripts (e.g. Python), especially in research were reproducibility is important.
 
-- Scraping example 1: search results from [Google Scholar](https://scholar.google.com)
-- Scraping example 2: Member of Parliament [addresses](https://www.ourcommons.ca/members/en/addresses)
+- Scraping example 1: search results from <a href="https://scholar.google.com" target="_blank">Google Scholar</a>.
+
+
+- Scraping example 2: Member of Parliament <a href="https://www.ourcommons.ca/members/en/addresses" target="_blank">addresses</a>.
 
 
 ## Data Miner Activity
