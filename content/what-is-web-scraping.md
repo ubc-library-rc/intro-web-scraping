@@ -6,7 +6,7 @@
 ---
 # What is web scraping?
 
-<div style="overflow: hidden;
+<!-- <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
 <iframe src="../slides/what-is-scraping.html" title="What is web scraping?" scrolling="no" frameborder="0"
@@ -18,7 +18,7 @@
    width: 100%;">
   <p>Your browser does not support iframes.</p>
 </iframe>
-</div>
+</div> -->
 
 <em><a href="../slides/what-is-scraping.html" target="_blank">View slides</a> for this section</em>
 
