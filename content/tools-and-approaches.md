@@ -10,14 +10,11 @@ As we saw with Dataminer, modern visual scraping tools are robust, designed to a
 
 In this workshop we focus on visual web scraping with Dataminer to familiarize you with the structure of a website and how to target different areas with a scraping tool. Our focus is to build a mental model of web scraping generally. However, if you would like to have more control over what you are doing, be able to share a detailed explanation of how you got the data that you scraped, and share your process in a sustainable way, scripting is a better approach for you.
 
-## What is scripting
+## What are scripting tools for web scraping
 
 Generally tools can be divided into two general categories:
 * Tools that get information from the web
 * Tools that parse the information you getting
-
-### R
-
 
 ### Python
 
@@ -66,6 +63,15 @@ Output
 We can see the structure of the script reflected when we use the inspect function in a browser.
 ![Inspect element example for ](media/script-inspect-element-screenshot.png)
 
+### R
+
+[R](https://www.r-project.org/about.html) is a feature rich programming language designed for statistical computing and graphics.
+
+The most common R based tool for web scraping is:
+
+* [rvest](https://cran.r-project.org/web/packages/rvest/index.html)
+  * rvest is not included in [tidyverse](https://www.tidyverse.org/) but it is related and works well with the collection of included packages.
+
 ### Getting started
 
 #### UBC Syzygy
@@ -78,7 +84,7 @@ Note that UBC Syzygy defaults to the latest versions of Python and R. Sometimes 
 
 ## Python and R Activities
 
-If you are using UBC Sygyzy you can generally skip tutorial instructions about local environment setup (eg. installing Python or R). Begin by from the point of importing libraries and do this directly into Sygyzy.
+If you are using [UBC Sygyzy](https://ubc.syzygy.ca/) you can generally skip tutorial instructions about local environment setup (eg. installing Python or R). Begin by from the point of importing libraries and do this directly into Sygyzy.
 
 ### Python tutorials
 * [Hitchhikers Guide to Python" html scraping tutorial (uses Python 2.x)](https://docs.python-guide.org/scenarios/scrape/)
@@ -98,4 +104,4 @@ If you are using UBC Sygyzy you can generally skip tutorial instructions about l
 ### R tutorials (all use the rvest library)
 * [Data Camp tutorial](https://www.datacamp.com/community/tutorials/r-web-scraping-rvest)
 * [Free Code Camp tutorial](https://www.freecodecamp.org/news/an-introduction-to-web-scraping-using-r-40284110c848/)
-* [Beginners guide to web scraping in r](https://www.analyticsvidhya.com/blog/2017/03/beginners-guide-on-web-scraping-in-r-using-rvest-with-hands-on-knowledge/)
+* [Beginners guide to web scraping in R](https://www.analyticsvidhya.com/blog/2017/03/beginners-guide-on-web-scraping-in-r-using-rvest-with-hands-on-knowledge/)
