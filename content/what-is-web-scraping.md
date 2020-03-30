@@ -20,6 +20,8 @@
 </iframe>
 </div>
 
+<em><a href="../slides/what-is-scraping.html" target="_blank">View slides</a> for this section</em>
+
 Web scraping is a technique for extracting information from websites. This can be done manually
 but it is usually faster, more efficient and less error-prone to **automate** the task.
 
