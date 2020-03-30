@@ -73,6 +73,8 @@
 					<p class="fragment">Right-click and select <em>Inspect</em> or <em>Inspect element</em> to reveal how the selected content is coded in HTML.
 			</section>
 
+			<!-- data-background-interactive not working on GH pages - reinstate this section if a solution is found
+
 				<section data-background="#ffffff" data-background-iframe="http://econpy.pythonanywhere.com/ex/001.html" data-background-interactive>
 					<div class="fragment fade-in-then-out" style="position: absolute; width: 30%; left: 50%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: black; color: #fff; padding: 20px; font-size: 30px; text-align: left;">
 
@@ -87,6 +89,22 @@
 						<pre><code class="hljs html" style="font-size:25px">//div[@title="buyer-name"]</code></pre>
 					</div>
 				</section>
+
+			-->
+
+				<section data-background="#fff">
+					<p>A simple site listing buyer names and item prices</p>
+					<p><a href="http://econpy.pythonanywhere.com/ex/001.html" target="_blank">http://econpy.pythonanywhere.com/ex/001.html</a></p>
+				</section>
+
+				<section data-background="#fff">
+					<p>Buyer names are structured like this in the HTML</p>
+					<pre><code class="hljs html"><div title="buyer-name">Moe Dess</div></code></pre>
+					<br/>
+					<p class="fragment">The XPath expression that identifies all <em>buyer-name</em> nodes is</p>
+					<pre><code class="hljs html">//div[@title="buyer-name"]</code></pre>
+				</div>
+			
 
 
 				<section>
