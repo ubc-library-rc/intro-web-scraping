@@ -6,6 +6,20 @@
 ---
 # What is web scraping?
 
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+<iframe src="slides/what-is-scraping.html" title="What is web scraping?" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+</div>
+
 Web scraping is a technique for extracting information from websites. This can be done manually
 but it is usually faster, more efficient and less error-prone to **automate** the task.
 
