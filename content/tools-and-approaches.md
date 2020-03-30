@@ -6,23 +6,22 @@
 ---
 # Tools and approaches
 
-## Working with a visual tools
+As we saw with Dataminer, modern visual scraping tools are robust, designed to avoid getting blocked by the requirements of a specific website, and generally easy to set up. Tools like Dataminer can truly accomplish basic web scraping tasks with a few simple clicks. But what if Dataminer ceases to exist? What if you want to create a workflow that others can use no matter what tool they are using? Working with web scraping in a research context requires a level of reproducibility which may not be easy to achieve with proprietary tools (including Dataminer).
 
-There are many reasons that you might want to skip the scripting process and want to use a pre-built tool. Modern visual scraping tools are robust, designed to avoid getting blocked by the requirements of a specific website, and generally easy to set up.
+In this workshop we focus on visual web scraping with Dataminer to familiarize you with the structure of a website and how to target different areas with a scraping tool. Our focus is to build a mental model of web scraping generally. However, if you would like to have more control over what you are doing, be able to share a detailed explanation of how you got the data that you scraped, and share your process in a sustainable way, scripting is a better approach for you.
 
-For this workshop we will primarily be talking about one tool that represents a good example of a visual web scraper:
-
-<a href="https://data-miner.io/">Dataminer</a> (and other plugins).
-
-## Scripting
-
-For this workshop we are focusing on Python based tools. Python is a common programming language and has a number of tools inside of it that help with web scraping. It is also relatively friendly for beginners to understand. There are many other tools for web scraping in other languages.
+## What is scripting
 
 Generally tools can be divided into two general categories:
 * Tools that get information from the web
 * Tools that parse the information you getting
 
-In Python sets of related tools get organized into "Libraries" (eg. tools for both scraping and parsing in one) and "Frameworks" which offer more structure for the application of a certain set of tools than a library would.
+### R
+
+
+### Python
+
+Python is a common programming language and has a number of tools inside of it that help with web scraping. It is also relatively friendly for beginners to understand. There are many other tools for web scraping in other languages. In Python sets of related tools get organized into "Libraries" (eg. tools for both scraping and parsing in one) and "Frameworks" which offer more structure for the application of a certain set of tools than a library would.
 
 The most common Python based tools for web scraping that you are likely to run into are:
 * <a href="https://requests.readthedocs.io/en/master/">requests</a>
@@ -67,19 +66,36 @@ Output
 We can see the structure of the script reflected when we use the inspect function in a browser.
 ![Inspect element example for ](media/script-inspect-element-screenshot.png)
 
-### Why use a script?
+### Getting started
 
-Tools such as Dataminer have the benefit of convenience and are certainly capable of answering challenging questions. However, in an academic context, it is important to have an understanding of exactly what is happening to produce a result. Moreover it is important to be able to communicate this to others and to share the entirety of your work with others down the line. As a proprietary tool, we don't really know how Dataminer is structured and aspects of it may change on us without warning. A colleage using a tool differently, in a different moment in time, or on a different system might also get a different output for reasons that are difficult to explain without understanding the nuances of how a tool works. Open source tools such as Python essentially "take out the middleman" and allow you to represent the reality of the steps you take to achieve a result and what variables are influencing it. It is also easier to share the entirety of your workflow as well as your output with others.
+#### UBC Syzygy
 
+Members of the UBC community (anyone with a CWL) have access to [UBC Syzygy](https://ubc.syzygy.ca/).
 
-### UBC based tools to help you get started
+Syzygy is a collection of research tools that are accessible through a web browser. One of these tools is "<a href="https://jupyter.org/">Jupyter</a>" which is an electronic notebook that lets you run scripts in common programming languages and see the output immediately with no additional installation or setup required. Syzygy effectively gives you a robust Python or R environment to test and run simple scripts in.
 
-Members of the UBC community (anyone with a CWL) have access to [UBC Syzygy](https://ubc.syzygy.ca/). Syzygy is a collection of research tools that are accessible through a web browser. One of these tools is "Jupyter" which is an electronic notebook that lets you run scripts in common programming languages and see the output immediately with no additional installation or setup required. Syzygy effectively gives you a robust Python or R environment to test and run simple scripts in.
+Note that UBC Syzygy defaults to the latest versions of Python and R. Sometimes syntax differs between version (especially between Python 2.x and Python 3.x). If possible, try updating the script to the latest version of the programming language rather than running an older version of the language.
 
 ## Python and R Activities
 
-### Python
-* <a href="https://docs.python-guide.org/scenarios/scrape/">"Hitchhikers Guide to Python" html scraping tutorial.</a>
-*
+If you are using UBC Sygyzy you can generally skip tutorial instructions about local environment setup (eg. installing Python or R). Begin by from the point of importing libraries and do this directly into Sygyzy.
 
-### R
+### Python tutorials
+* [Hitchhikers Guide to Python" html scraping tutorial (uses Python 2.x)](https://docs.python-guide.org/scenarios/scrape/)
+  * To update to Python3, change
+    ```python
+    print 'Buyers: ', buyers
+    print 'Prices: ', prices
+    ```
+    to
+    ```python
+    print (buyers)
+    print (prices)
+    ```
+* [Data Camp tutorial](https://www.datacamp.com/community/tutorials/web-scraping-using-python)
+* [RealPython tutorial](https://realpython.com/python-web-scraping-practical-introduction/)
+
+### R tutorials (all use the rvest library)
+* [Data Camp tutorial](https://www.datacamp.com/community/tutorials/r-web-scraping-rvest)
+* [Free Code Camp tutorial](https://www.freecodecamp.org/news/an-introduction-to-web-scraping-using-r-40284110c848/)
+* [Beginners guide to web scraping in r](https://www.analyticsvidhya.com/blog/2017/03/beginners-guide-on-web-scraping-in-r-using-rvest-with-hands-on-knowledge/)
