@@ -6,34 +6,35 @@
 ---
 # Tools and approaches
 
+<em><a href="../slides/tools-and-approaches.html" target="_blank">View slides</a> for this section</em>
+
 As we saw with Dataminer, modern visual scraping tools are robust, designed to avoid getting blocked by the requirements of a specific website, and generally easy to set up. Tools like Dataminer can truly accomplish basic web scraping tasks with a few simple clicks. But what if Dataminer ceases to exist? What if you want to create a workflow that others can use no matter what tool they are using? Working with web scraping in a research context requires a level of reproducibility which may not be easy to achieve with proprietary tools (including Dataminer).
 
 In this workshop we focus on visual web scraping with Dataminer to familiarize you with the structure of a website and how to target different areas with a scraping tool. Our focus is to build a mental model of web scraping generally. However, if you would like to have more control over what you are doing, be able to share a detailed explanation of how you got the data that you scraped, and share your process in a sustainable way, scripting is a better approach for you.
 
+## A note about environment setup
+
+This workshop is not intended to teach you how to program or to set up your computer to work with programming languages. For absolute beginners who are interested in exploring scripts without the overhead of environment setup, Project Jupyter is a great resource. Jupyter Notebooks are hosted computational environments that require minimal environment setup. You can see Jupyter in action and try a notebook here: https://jupyter.org/try. Select "Try Classic Notebook" for a basic Python environment.
+
+#### UBC Syzygy
+
+Members of the UBC community (anyone with a CWL) have access to [UBC Syzygy](https://ubc.syzygy.ca/). Syzygy is a collection of research tools including "<a href="https://jupyter.org/">Jupyter</a>" that are accessible through a web browser and hosted at UBC.
+
+### Jupyter Orientation Activity
+
+Open a new "Classic Notebook" at https://jupyter.org/try and do the following:
+
+1) Insert cell and type into it.
+2) Change the cell to "Markdown" and run it.
+3) Delete your newly created cell.
+
 ## What are scripting tools for web scraping
 
-Generally tools can be divided into two general categories:
+Generally tools can be divided into two categories:
 * Tools that get information from the web
 * Tools that parse the information you getting
 
-### Python
-
-Python is a common programming language and has a number of tools inside of it that help with web scraping. It is also relatively friendly for beginners to understand. There are many other tools for web scraping in other languages. In Python sets of related tools get organized into "Libraries" (eg. tools for both scraping and parsing in one) and "Frameworks" which offer more structure for the application of a certain set of tools than a library would.
-
-The most common Python based tools for web scraping that you are likely to run into are:
-* <a href="https://requests.readthedocs.io/en/master/">requests</a>
-  * a library for getting data from the web.
-  * tools to communicate over HTTP.
-* <a href="https://docs.python.org/2/library/urllib.html">urllib</a>
-  * tools to communicate over HTTP.
-  * best for smaller amounts of data, very similar to requests.
-* <a href="https://lxml.de/">lxml<a/>
-  * a set of tools for parsing html and xml.
-* <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">Beautiful Soup</a>
-  * a slightly larger set of tools for parsing html and xml.
-* <a href="https://scrapy.org/">Scrapy</a>
-  * a framework for web crawling and web scraping. For getting small and large amounts of data from the web and automating requests to happen repeatedly or over time.
-  * A parser which processes html or xml by standardizing it. Beautiful soup can troubleshoot structural problems in the output of your scrape such missing or open html tags.
+For the examples in this workshop we will be looking at a simple Python script. Python is a common programming language and has a number of tools inside of it that help with web scraping. It is also relatively friendly for beginners to understand. In Python sets of related tools get organised into "Libraries" (eg. tools for both scraping and parsing in one) and "Frameworks" which offer more structure for the application of a certain set of tools than a library would.
 
 Below is an example of a simple Python script taken from the <a href="https://docs.python-guide.org/scenarios/scrape/">"Hitchhikers Guide to Python" html scraping tutorial</a>.
 
@@ -63,7 +64,24 @@ Output
 We can see the structure of the script reflected when we use the inspect function in a browser.
 ![Inspect element example for ](media/script-inspect-element-screenshot.png)
 
-### R
+### Web Scraping with Python
+
+The most common Python based tools for web scraping that you are likely to run into are:
+* <a href="https://requests.readthedocs.io/en/master/">requests</a>
+  * a library for getting data from the web.
+  * tools to communicate over HTTP.
+* <a href="https://docs.python.org/2/library/urllib.html">urllib</a>
+  * tools to communicate over HTTP.
+  * best for smaller amounts of data, very similar to requests.
+* <a href="https://lxml.de/">lxml<a/>
+  * a set of tools for parsing html and xml.
+* <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">Beautiful Soup</a>
+  * a slightly larger set of tools for parsing html and xml.
+* <a href="https://scrapy.org/">Scrapy</a>
+  * a framework for web crawling and web scraping. For getting small and large amounts of data from the web and automating requests to happen repeatedly or over time.
+  * A parser which processes html or xml by standardizing it. Beautiful soup can troubleshoot structural problems in the output of your scrape such missing or open html tags.
+
+### Web Scraping with R
 
 [R](https://www.r-project.org/about.html) is a feature rich programming language designed for statistical computing and graphics.
 
@@ -72,17 +90,7 @@ The most common R based tool for web scraping is:
 * [rvest](https://cran.r-project.org/web/packages/rvest/index.html)
   * rvest is not included in [tidyverse](https://www.tidyverse.org/) but it is related and works well with the collection of included packages.
 
-### Getting started
-
-#### UBC Syzygy
-
-Members of the UBC community (anyone with a CWL) have access to [UBC Syzygy](https://ubc.syzygy.ca/).
-
-Syzygy is a collection of research tools that are accessible through a web browser. One of these tools is "<a href="https://jupyter.org/">Jupyter</a>" which is an electronic notebook that lets you run scripts in common programming languages and see the output immediately with no additional installation or setup required. Syzygy effectively gives you a robust Python or R environment to test and run simple scripts in.
-
-Note that UBC Syzygy defaults to the latest versions of Python and R. Sometimes syntax differs between version (especially between Python 2.x and Python 3.x). If possible, try updating the script to the latest version of the programming language rather than running an older version of the language.
-
-## Python and R Activities
+## Scripting Activities
 
 If you are using [UBC Sygyzy](https://ubc.syzygy.ca/) you can generally skip tutorial instructions about local environment setup (eg. installing Python or R). Begin by from the point of importing libraries and do this directly into Sygyzy.
 
