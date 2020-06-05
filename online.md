@@ -12,7 +12,7 @@ Microphones are muted by default to improve audio quality and recording is disab
 
 The Zoom toolbar provides several ways to be part of the conversation:
 
-<img src="figures/zoom_toolbar.png" alt="Zoom toolbar" width="510"/>
+<img src="content/media/zoom_toolbar.png" alt="Zoom toolbar" width="510"/>
 <br/>
 ## Participants window
 The _Participants_ window lists everyone in the session. Click the icons at the bottom of the window to communicate with the instructors.
