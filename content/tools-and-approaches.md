@@ -106,6 +106,11 @@ If you are using [UBC Sygyzy](https://ubc.syzygy.ca/) you can generally skip tut
     print (buyers)
     print (prices)
     ```
+  * if lxml is not found in your environment run this first:
+  '''python
+  pip install lxml
+  '''
+
 * [Data Camp tutorial](https://www.datacamp.com/community/tutorials/web-scraping-using-python)
 * [RealPython tutorial](https://realpython.com/python-web-scraping-practical-introduction/)
 
