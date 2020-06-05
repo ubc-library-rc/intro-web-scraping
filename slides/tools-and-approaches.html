@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Intro to web scraping - what is web scraping?</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h2>Building a basic scripting toolkit</h2>
+				</section>
+
+				<section>
+					<h2>Generally tools can be divided into two categories:</h2>
+				<ul>
+				<div class="fragment fade-in">	<li>Tools that get information from the web</li></div>
+				<div class="fragment fade-in">	<li>Tools that parse the information you getting</li></div>
+				</ul>
+			</br>
+		<div class="fragment fade-in">	<p>A script is a tool to do one or more of those things.</p></div>
+		</section>
+<section>
+			<h3>Python</h3>
+
+				<ul>
+				<div class="fragment fade-in">	<li>A common and multi-purpose programming language.</li>	</div>
+					<div class="fragment fade-in"><li>Relatively beginner friendly and well documented.</li></div>
+						<div class="fragment fade-in"><li>There are many tutorials for accessing APIs using Python libraries and frameworks.</li></div>
+			</ul>
+		</section>
+
+				<section>
+				<h3>A note about environment setup</h3>
+				<h4>Jupyter Notebooks</h4>
+
+					<ul>
+					<div class="fragment fade-in"><li>Jupyter Notebooks are hosted computational environments.</li>	</div>
+					<div class="fragment fade-in"><li>Minimal environment setup required, Jupyter handles that for you.</li>	</div>
+					</ul>
+					<div class="fragment fade-in"><blockquote>To use a basic Python environment in a Jupyter notebook for free go here: <br> <a href="https://jupyter.org/try">https://jupyter.org/try</a> <br> and select <br> "Try Classic Notebook".</blockquote></div>
+
+				</section>
+
+<section>
+<h2>Jupyter orientation activity</h2>
+
+				Open a new "Classic Notebook" at <a href="https://jupyter.org/try">https://jupyter.org/try</a> and do the following:
+<br>
+				<ol>
+					<li>Insert cell and type into it.</li>
+				  <li>Change the cell to "Markdown" and run it.</li>
+				  <li>Delete your newly created cell.</li>
+				</ol>
+</section>
+
+
+<section>
+Let's look at an example from:
+<blockquote><a href="https://docs.python-guide.org/scenarios/scrape/">"Hitchhikers Guide to Python" html scraping tutorial</a>.
+</blockquote>
+
+</section>
+
+</div>
+
+</div>
+
+<script src="js/reveal.js"></script>
+
+<script>
+
+// More info https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+controls: true,
+progress: true,
+center: true,
+hash: true,
+
+transition: 'none', // none/fade/slide/convex/concave/zoom
+
+// More info https://github.com/hakimel/reveal.js#dependencies
+dependencies: [
+	{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+	{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+	{ src: 'plugin/highlight/highlight.js' },
+	{ src: 'plugin/search/search.js', async: true },
+	{ src: 'plugin/zoom-js/zoom.js', async: true },
+	{ src: 'plugin/notes/notes.js', async: true }
+]
+});
+
+</script>
+
+</body>
+</html>
