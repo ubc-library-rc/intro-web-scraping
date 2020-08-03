@@ -8,7 +8,7 @@
 
 <em><a href="../slides/tools-and-approaches.html" target="_blank">View slides</a> for this section</em>
 
-As we saw with Dataminer, modern visual scraping tools are robust, designed to avoid getting blocked by the requirements of a specific website, and generally easy to set up. Tools like Dataminer can truly accomplish basic web scraping tasks with a few simple clicks. But what if Dataminer ceases to exist? What if you want to create a workflow that others can use no matter what tool they are using? Working with web scraping in a research context requires a level of reproducibility which may not be easy to achieve with proprietary tools (including Dataminer).
+As we saw with Data Miner, modern visual scraping tools are robust, designed to avoid getting blocked by the requirements of a specific website, and generally easy to set up. Tools like Dataminer can truly accomplish basic web scraping tasks with a few simple clicks. But what if Dataminer ceases to exist? What if you want to create a workflow that others can use no matter what tool they are using? Working with web scraping in a research context requires a level of reproducibility which may not be easy to achieve with proprietary tools (including Dataminer).
 
 In this workshop we focus on visual web scraping with Dataminer to familiarize you with the structure of a website and how to target different areas with a scraping tool. Our focus is to build a mental model of web scraping generally. However, if you would like to have more control over what you are doing, be able to share a detailed explanation of how you got the data that you scraped, and share your process in a sustainable way, scripting is a better approach for you.
 
