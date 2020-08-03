@@ -8,10 +8,10 @@
 
 ## Understanding Websites
 * Mozilla developer network's <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">Getting started with the web"</a> which covers HTML basics.
-* For more in-depth information about web development take a look at <a href="https://internetingishard.com/">Internetting is hard (but doesn't have to be)</a>.
+* For more in-depth information about web development take a look at <a href="https://internetingishard.com/">Internetting is hard (but it doesn't have to be)</a>.
 
-## Working with Dataminer
-* <a href="https://data-miner.io/user-manuals/public-recipes">Dataminer Documentation</a>.
+## Working with Data Miner
+* <a href="https://data-miner.io/user-manuals/public-recipes">Data Miner Documentation</a>.
 
 ## XPath
 - [XPath tutorial from W3Schools](https://www.w3schools.com/xml/xpath_intro.asp)
