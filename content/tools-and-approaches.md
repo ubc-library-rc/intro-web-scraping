@@ -8,13 +8,13 @@
 
 <em><a href="../slides/tools-and-approaches.html" target="_blank">View slides</a> for this section</em>
 
-As we saw with Data Miner, modern visual scraping tools are robust, designed to avoid getting blocked by the requirements of a specific website, and generally easy to set up. Tools like Dataminer can truly accomplish basic web scraping tasks with a few simple clicks. But what if Dataminer ceases to exist? What if you want to create a workflow that others can use no matter what tool they are using? Working with web scraping in a research context requires a level of reproducibility which may not be easy to achieve with proprietary tools (including Dataminer).
+As we saw with Data Miner, modern visual scraping tools are robust, designed to avoid getting blocked by the requirements of a specific website, and generally easy to set up. Tools like Data Miner can truly accomplish basic web scraping tasks with a few simple clicks. But what if Data Miner ceases to exist? What if you want to create a workflow that others can use no matter what tool they are using? Working with web scraping in a research context requires a level of reproducibility which may not be easy to achieve with proprietary tools (including Data Miner).
 
-In this workshop we focus on visual web scraping with Dataminer to familiarize you with the structure of a website and how to target different areas with a scraping tool. Our focus is to build a mental model of web scraping generally. However, if you would like to have more control over what you are doing, be able to share a detailed explanation of how you got the data that you scraped, and share your process in a sustainable way, scripting is a better approach for you.
+In this workshop we focus on visual web scraping with Data Miner to familiarize you with the structure of a website and how to target different areas with a scraping tool. Our focus is to build a mental model of web scraping generally. However, if you would like to have more control over what you are doing, be able to share a detailed explanation of how you got the data that you scraped, and share your process in a sustainable way, scripting is a better approach for you.
 
 ## A note about environment setup
 
-This workshop is not intended to teach you how to program or to set up your computer to work with programming languages. For absolute beginners who are interested in exploring scripts without the overhead of environment setup, Project Jupyter is a great resource. Jupyter Notebooks are hosted computational environments that require minimal environment setup. You can see Jupyter in action and try a notebook here: https://jupyter.org/try. Select "Try Classic Notebook" for a basic Python environment.
+This workshop is not intended to teach you how to program or to set up your computer to work with programming languages. For absolute beginners who are interested in exploring scripts without the overhead of environment setup, Project Jupyter is a great resource. Jupyter Notebooks are hosted computational environments that require minimal environment setup. You can see Jupyter in action and try a notebook here: [https://jupyter.org/try](https://jupyter.org/try). Select "Try Classic Notebook" for a basic Python environment.
 
 #### UBC Syzygy
 
@@ -22,7 +22,7 @@ Members of the UBC community (anyone with a CWL) have access to [UBC Syzygy](htt
 
 ### Jupyter Orientation Activity
 
-Open a new "Classic Notebook" at https://jupyter.org/try and do the following:
+Open a new "Classic Notebook" at [https://jupyter.org/try](https://jupyter.org/try) and do the following:
 
 1) Insert cell and type into it.
 2) Change the cell to "Markdown" and run it.
