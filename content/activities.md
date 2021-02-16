@@ -1,8 +1,8 @@
 ---
  layout: default
- title: What is web scraping?
+ title: Activities
  parent: Outline
- nav_order: 1
+ nav_order: 4
 ---
 
 ## Data Miner Activity
