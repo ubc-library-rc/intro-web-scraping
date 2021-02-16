@@ -89,32 +89,3 @@ The most common R based tool for web scraping is:
 
 * [rvest](https://cran.r-project.org/web/packages/rvest/index.html)
   * rvest is not included in [tidyverse](https://www.tidyverse.org/) but it is related and works well with the collection of included packages.
-
-## Scripting Activities
-
-If you are using [UBC Sygyzy](https://ubc.syzygy.ca/) you can generally skip tutorial instructions about local environment setup (eg. installing Python or R). Begin by from the point of importing libraries and do this directly into Sygyzy.
-
-### Python tutorials
-* [Hitchhikers Guide to Python" html scraping tutorial (uses Python 2.x)](https://docs.python-guide.org/scenarios/scrape/)
-  * To update to Python3, change
-    ```python
-    print 'Buyers: ', buyers
-    print 'Prices: ', prices
-    ```
-    to
-    ```python
-    print (buyers)
-    print (prices)
-    ```
-  * if lxml is not found in your environment run this first:
-  '''python
-  pip install lxml
-  '''
-
-* [Data Camp tutorial](https://www.datacamp.com/community/tutorials/web-scraping-using-python)
-* [RealPython tutorial](https://realpython.com/python-web-scraping-practical-introduction/)
-
-### R tutorials (all use the rvest library)
-* [Data Camp tutorial](https://www.datacamp.com/community/tutorials/r-web-scraping-rvest)
-* [Free Code Camp tutorial](https://www.freecodecamp.org/news/an-introduction-to-web-scraping-using-r-40284110c848/)
-* [Beginners guide to web scraping in R](https://www.analyticsvidhya.com/blog/2017/03/beginners-guide-on-web-scraping-in-r-using-rvest-with-hands-on-knowledge/)

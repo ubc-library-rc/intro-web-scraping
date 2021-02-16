@@ -51,15 +51,3 @@ The Data Miner extension is an accessible way to introduce web scraping concepts
 
 
 - Scraping example 2: Member of Parliament <a href="https://www.ourcommons.ca/members/en/addresses" target="_blank">addresses</a>.
-
-
-## Data Miner Activity
-
-If you haven't already, install <a href="https://chrome.google.com/webstore/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden">Data Miner plugin for Chrome</a>.
-
-1. Working from the "Recipes" tab, go to [Google Scholar](https://scholar.google.com), do a search, and save the results of your search with a "Google Scholar" Recipe.
-
-2. Build a new recipe to scrape one of the following:
-- names and email addresses from the [UBC directory](https://directory.ubc.ca/index.cfm)
-- search results from [UBC Library](https://library.ubc.ca)
-- *any other page you like!*
