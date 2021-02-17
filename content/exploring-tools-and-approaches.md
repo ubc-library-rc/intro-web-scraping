@@ -16,18 +16,6 @@ In this workshop we focus on visual web scraping with Data Miner to familiarize 
 
 This workshop is not intended to teach you how to program or to set up your computer to work with programming languages. For absolute beginners who are interested in exploring scripts without the overhead of environment setup, Project Jupyter is a great resource. Jupyter Notebooks are hosted computational environments that require minimal environment setup. You can see Jupyter in action and try a notebook here: [https://jupyter.org/try](https://jupyter.org/try). Select "Try Classic Notebook" for a basic Python environment.
 
-#### UBC Syzygy
-
-Members of the UBC community (anyone with a CWL) have access to [UBC Syzygy](https://ubc.syzygy.ca/). Syzygy is a collection of research tools including "<a href="https://jupyter.org/">Jupyter</a>" that are accessible through a web browser and hosted at UBC.
-
-### Jupyter Orientation Activity
-
-Open a new "Classic Notebook" at [https://jupyter.org/try](https://jupyter.org/try) and do the following:
-
-1) Insert cell and type into it.
-2) Change the cell to "Markdown" and run it.
-3) Delete your newly created cell.
-
 ## What are scripting tools for web scraping
 
 Generally tools can be divided into two categories:
