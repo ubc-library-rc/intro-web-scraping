@@ -12,7 +12,6 @@ This workshop is intended to orient complete beginners to the fundamentals of we
 - describe what web scraping is
 - identify cases when web scraping may be useful
 - use one method to scrape content from the web
-- do basic cleaning on scraped output
 
 ## Schedule
 
