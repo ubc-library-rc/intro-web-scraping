@@ -16,7 +16,7 @@ If you haven't already, install <a href="https://chrome.google.com/webstore/deta
 - search results from [UBC Library](https://library.ubc.ca)
 - *any other page you like!*
 
-### Jupyter activity
+## Jupyter activity
 This example is adapted from <a href="https://docs.python-guide.org/scenarios/scrape/">"Hitchhikers Guide to Python" html scraping tutorial</a>.
 
 1. Open a Jupyter notebook here: [https://jupyter.org/try](https://jupyter.org/try). Select "Try Classic Notebook" for a basic Python environment.
