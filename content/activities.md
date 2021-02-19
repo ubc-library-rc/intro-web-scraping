@@ -21,15 +21,13 @@ This example is adapted from <a href="https://docs.python-guide.org/scenarios/sc
 
 1. Open a Jupyter notebook here: [https://jupyter.org/try](https://jupyter.org/try). Select "Try Classic Notebook" for a basic Python environment.
 
-2. Add a cell and install lxml.
+2. Add a cell and install lxml then add a new cell and copy this this script into it, then run the cell.
 
 Input
 {: .label .label-green }
 ~~~python
 pip install lxml
 ~~~
-
-3. Add a new cell and copy this script into it, then run the cell.
 
 Input
 {: .label .label-green }
@@ -56,5 +54,5 @@ Output
 ['$29.95', '$8.37', '$15.26', '$19.25', '$19.25', '$13.99', '$31.57', '$8.49', '$14.47', '$15.86', '$11.11', '$15.98', '$16.27', '$7.50', '$50.85', '$14.26', '$5.68', '$15.00', '$114.07', '$10.09']
 ~~~
 
-4. Explore the structure of the script reflected when we use the inspect function in a browser.
+Explore the structure of the script reflected when we use the inspect function in a browser.
 ![Inspect element example for ](media/script-inspect-element-screenshot.png)
