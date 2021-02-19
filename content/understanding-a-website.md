@@ -54,7 +54,7 @@ The Data Miner extension is an accessible way to introduce web scraping concepts
 2. Enter your search terms and run a search. Stay on the search result page.
 
 ### *2*{: .circle .circle-yellow} Use an existing "recipe" to scrape search results 
-We will use an existing _Data Miner recipe_ to systematically scrape bibliographic data from each the first page of Google Scholar results.
+We will use an existing _Data Miner recipe_ to systematically scrape bibliographic data from the first page of Google Scholar results.
 
 1. Open the Data Miner plugin in Chrome or Edge browsers.
 2. Click "Scrape this page" to open the Data Miner interface.
@@ -69,11 +69,11 @@ After clicking _Select and Scrape_, move to the _Download_ tab to review and opt
 In the previous example we used a public recipe designed for Google Scholar search results pages. In this example we will create our own recipe to selectively extract he content we want from any page.
 
 1. In the Chrome browser go to <https://ourcommons.ca/members/en/addresses/>
-2. Open the _Data Miner_ plugin and select "Make your own recipe."
+2. Open the _Data Miner_ plugin and select "make your own recipe."
 <img style="margin-left:40px; margin-bottom:50px" src="media/make-own-recipe.png"/>
 3. In the _Recipe Creator_ click through the tabs to select the _Type_, _Rows_, and _Columns_ for your recipe.
 <img style="margin-left:40px; margin-bottom:50px" src="media/create-recipe.png"/>
 
-When given the option, choose the _Advanced settins_ instead of the "Easy Row Finder" or the "Easy Column Finder." This will help you understand the relationship between your choices and the underlying HTML structure of the page you are scraping.
+When given the option, choose the _Advanced settings_ instead of the "Easy Row Finder" or the "Easy Column Finder." This will help you understand the relationship between your choices and the underlying HTML structure of the page you are scraping.
 <img style="margin-top: 20px; margin-left:40px; margin-bottom:50px" src="media/advanced-finder.png"/>
 {: .note}
