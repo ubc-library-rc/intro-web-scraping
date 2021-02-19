@@ -17,7 +17,7 @@ In this workshop we focus on visual web scraping with Data Miner to familiarize 
 This workshop is not intended to teach you how to program or to set up your computer to work with programming languages. For absolute beginners who are interested in exploring scripts without the overhead of environment setup, Project Jupyter is a great resource. Jupyter Notebooks are hosted computational environments that require minimal environment setup.
 
 You can see Jupyter in action and try a notebook here: [https://jupyter.org/try](https://jupyter.org/try). Select "Try Classic Notebook" for a basic Python environment.
-{.note}
+{ .note}
 
 ## What are scripting tools for web scraping
 
