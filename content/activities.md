@@ -16,31 +16,45 @@ If you haven't already, install <a href="https://chrome.google.com/webstore/deta
 - search results from [UBC Library](https://library.ubc.ca)
 - *any other page you like!*
 
-## Scripting Activities
+### Jupyter activity
+This example is adapted from <a href="https://docs.python-guide.org/scenarios/scrape/">"Hitchhikers Guide to Python" html scraping tutorial</a>.
 
-If you are using [UBC Sygyzy](https://ubc.syzygy.ca/) you can generally skip tutorial instructions about local environment setup (eg. installing Python or R). Begin by from the point of importing libraries and do this directly into Sygyzy.
+1. Open a Jupyter notebook here: [https://jupyter.org/try](https://jupyter.org/try). Select "Try Classic Notebook" for a basic Python environment.
 
-### Python tutorials
-* [Hitchhikers Guide to Python" html scraping tutorial (uses Python 2.x)](https://docs.python-guide.org/scenarios/scrape/)
-  * To update to Python3, change
-    ```python
-    print 'Buyers: ', buyers
-    print 'Prices: ', prices
-    ```
-    to
-    ```python
-    print (buyers)
-    print (prices)
-    ```
-  * if lxml is not found in your environment run this first:
-  '''python
-  pip install lxml
-  '''
-* [Data Camp tutorial](https://www.datacamp.com/community/tutorials/web-scraping-using-python)
-* [RealPython tutorial](https://realpython.com/python-web-scraping-practical-introduction/)
+2. Add a cell and install lxml.
 
-### R tutorials (all use the rvest library)
-* [Data Camp tutorial](https://www.datacamp.com/community/tutorials/r-web-scraping-rvest)
-* [DataQuest tutorial](https://www.dataquest.io/blog/web-scraping-in-r-rvest/)
-* [Free Code Camp tutorial](https://www.freecodecamp.org/news/an-introduction-to-web-scraping-using-r-40284110c848/)
-* [Beginners guide to web scraping in R](https://www.analyticsvidhya.com/blog/2017/03/beginners-guide-on-web-scraping-in-r-using-rvest-with-hands-on-knowledge/)
+Input
+{: .label .label-green }
+~~~python
+pip install lxml
+~~~
+
+3. Add a new cell and copy this script into it, then run the cell.
+
+Input
+{: .label .label-green }
+~~~python
+from lxml import html
+import requests
+page = requests.get('http://econpy.pythonanywhere.com/ex/001.html')
+tree = html.fromstring(page.content)
+#This will create a list of buyers:
+buyers = tree.xpath('//div[@title="buyer-name"]/text()')
+#This will create a list of prices
+prices = tree.xpath('//span[@class="item-price"]/text()')
+print (buyers)
+print (prices)
+~~~
+
+You should see the following output.
+
+Output
+{: .label .label-yellow }
+~~~python
+['Carson Busses', 'Earl E. Byrd', 'Patty Cakes', 'Derri Anne Connecticut', 'Moe Dess', 'Leda Doggslife', 'Dan Druff', 'Al Fresco', 'Ido Hoe', 'Howie Kisses', 'Len Lease', 'Phil Meup', 'Ira Pent', 'Ben D. Rules', 'Ave Sectomy', 'Gary Shattire', 'Bobbi Soks', 'Sheila Takya', 'Rose Tattoo', 'Moe Tell']
+
+['$29.95', '$8.37', '$15.26', '$19.25', '$19.25', '$13.99', '$31.57', '$8.49', '$14.47', '$15.86', '$11.11', '$15.98', '$16.27', '$7.50', '$50.85', '$14.26', '$5.68', '$15.00', '$114.07', '$10.09']
+~~~
+
+4. Explore the structure of the script reflected when we use the inspect function in a browser.
+![Inspect element example for ](media/script-inspect-element-screenshot.png)

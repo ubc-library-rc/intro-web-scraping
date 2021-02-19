@@ -14,7 +14,10 @@ In this workshop we focus on visual web scraping with Data Miner to familiarize 
 
 ## A note about environment setup
 
-This workshop is not intended to teach you how to program or to set up your computer to work with programming languages. For absolute beginners who are interested in exploring scripts without the overhead of environment setup, Project Jupyter is a great resource. Jupyter Notebooks are hosted computational environments that require minimal environment setup. You can see Jupyter in action and try a notebook here: [https://jupyter.org/try](https://jupyter.org/try). Select "Try Classic Notebook" for a basic Python environment.
+This workshop is not intended to teach you how to program or to set up your computer to work with programming languages. For absolute beginners who are interested in exploring scripts without the overhead of environment setup, Project Jupyter is a great resource. Jupyter Notebooks are hosted computational environments that require minimal environment setup.
+
+You can see Jupyter in action and try a notebook here: [https://jupyter.org/try](https://jupyter.org/try). Select "Try Classic Notebook" for a basic Python environment.
+{.note}
 
 ## What are scripting tools for web scraping
 
@@ -22,35 +25,7 @@ Generally tools can be divided into two categories:
 * Tools that get information from the web
 * Tools that parse the information you getting
 
-For the examples in this workshop we will be looking at a simple Python script. Python is a common programming language and has a number of tools inside of it that help with web scraping. It is also relatively friendly for beginners to understand. In Python sets of related tools get organised into "Libraries" (eg. tools for both scraping and parsing in one) and "Frameworks" which offer more structure for the application of a certain set of tools than a library would.
-
-Below is an example of a simple Python script taken from the <a href="https://docs.python-guide.org/scenarios/scrape/">"Hitchhikers Guide to Python" html scraping tutorial</a>.
-
-Input
-{: .label .label-green }
-~~~python
-from lxml import html
-import requests
-page = requests.get('http://econpy.pythonanywhere.com/ex/001.html')
-tree = html.fromstring(page.content)
-#This will create a list of buyers:
-buyers = tree.xpath('//div[@title="buyer-name"]/text()')
-#This will create a list of prices
-prices = tree.xpath('//span[@class="item-price"]/text()')
-print (buyers)
-print (prices)
-~~~
-
-Output
-{: .label .label-yellow }
-~~~python
-['Carson Busses', 'Earl E. Byrd', 'Patty Cakes', 'Derri Anne Connecticut', 'Moe Dess', 'Leda Doggslife', 'Dan Druff', 'Al Fresco', 'Ido Hoe', 'Howie Kisses', 'Len Lease', 'Phil Meup', 'Ira Pent', 'Ben D. Rules', 'Ave Sectomy', 'Gary Shattire', 'Bobbi Soks', 'Sheila Takya', 'Rose Tattoo', 'Moe Tell']
-
-['$29.95', '$8.37', '$15.26', '$19.25', '$19.25', '$13.99', '$31.57', '$8.49', '$14.47', '$15.86', '$11.11', '$15.98', '$16.27', '$7.50', '$50.85', '$14.26', '$5.68', '$15.00', '$114.07', '$10.09']
-~~~
-
-We can see the structure of the script reflected when we use the inspect function in a browser.
-![Inspect element example for ](media/script-inspect-element-screenshot.png)
+We will look at a quick example of a Python script run through Jupyter. Python is a common programming language and has a number of tools inside of it that help with web scraping. It is also relatively friendly for beginners to understand. In Python sets of related tools get organised into "Libraries" (eg. tools for both scraping and parsing in one) and "Frameworks" which offer more structure for the application of a certain set of tools than a library would.
 
 ### Web Scraping with Python
 
@@ -69,6 +44,10 @@ The most common Python based tools for web scraping that you are likely to run i
   * a framework for web crawling and web scraping. For getting small and large amounts of data from the web and automating requests to happen repeatedly or over time.
   * A parser which processes html or xml by standardizing it. Beautiful soup can troubleshoot structural problems in the output of your scrape such missing or open html tags.
 
+#### Tutorials to explore
+  * [Data Camp tutorial](https://www.datacamp.com/community/tutorials/web-scraping-using-python)
+  * [RealPython tutorial](https://realpython.com/python-web-scraping-practical-introduction/)
+
 ### Web Scraping with R
 
 [R](https://www.r-project.org/about.html) is a feature rich programming language designed for statistical computing and graphics.
@@ -77,3 +56,9 @@ The most common R based tool for web scraping is:
 
 * [rvest](https://cran.r-project.org/web/packages/rvest/index.html)
   * rvest is not included in [tidyverse](https://www.tidyverse.org/) but it is related and works well with the collection of included packages.
+
+#### R tutorials (all use the rvest library)
+  * [Data Camp tutorial](https://www.datacamp.com/community/tutorials/r-web-scraping-rvest)
+  * [DataQuest tutorial](https://www.dataquest.io/blog/web-scraping-in-r-rvest/)
+  * [Free Code Camp tutorial](https://www.freecodecamp.org/news/an-introduction-to-web-scraping-using-r-40284110c848/)
+  * [Beginners guide to web scraping in R](https://www.analyticsvidhya.com/blog/2017/03/beginners-guide-on-web-scraping-in-r-using-rvest-with-hands-on-knowledge/)
