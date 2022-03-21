@@ -5,18 +5,12 @@
  nav_order: 4
 ---
 
-## Jupyter Activity
+## Google colab Activity
 This example is adapted from the <a href="https://docs.python-guide.org/scenarios/scrape/">"Hitchhikers Guide to Python" html scraping tutorial</a>.
 
-1. Open a Jupyter notebook here: [https://jupyter.org/try](https://jupyter.org/try). Select "Try Classic Notebook" for a basic Python environment.
+1. Open a Google Colab notebook here: [https://colab.research.google.com/](https://colab.research.google.com/).  Login with a Google account, then select "_File_ -> _New notebook_" for a basic coding environment.
 
-2. Add a cell and install lxml then add a new cell and copy this this script into it, then run the cell.
-
-Input
-{: .label .label-green }
-~~~python
-pip install lxml
-~~~
+2. Add a code cell by clicking _+ Code_. Copy the script below into the code cell, then click the _play_ icon to run the code. 
 
 Input
 {: .label .label-green }

@@ -14,9 +14,9 @@ In this workshop we focus on visual web scraping with Data Miner to familiarize 
 
 ## A note about environment setup
 
-This workshop is not intended to teach you how to program or to set up your computer to work with programming languages. For absolute beginners who are interested in exploring scripts without the overhead of environment setup, Project Jupyter is a great resource. Jupyter Notebooks are hosted computational environments that require minimal environment setup.
+This workshop is not intended to teach you how to program or to set up your computer to work with programming languages. For absolute beginners who are interested in exploring scripts without the overhead of environment setup, Project Jupyter and Google Colab are great resources. They are hosted computational environments that require minimal environment setup.
 
-You can see Jupyter in action and try a notebook here: [https://jupyter.org/try](https://jupyter.org/try). Select "Try Classic Notebook" for a basic Python environment.
+You can see Google Colab in action and try some code here: [https://colab.research.google.com/](https://colab.research.google.com). Login with a Google account, then select "_File_ -> _New notebook_" for a basic coding environment.
 {: .note}
 
 ## What are scripting tools for web scraping
